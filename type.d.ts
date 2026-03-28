@@ -24,7 +24,7 @@ declare global {
         price: number;
         currency?: string;
         billing: string;
-        renewalDate?: string;t
+        renewalDate?: string;
         color?: string;
     }
 
