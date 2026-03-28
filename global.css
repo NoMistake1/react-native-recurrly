@@ -42,7 +42,7 @@
     --font-sans-medium: sans-medium;
     --font-sans-semibold: sans-semibold;
     --font-sans-bold: sans-bold;
-    --font-sans-extrabold: sans-extrabold;
+    --font-sans-extrabold: sans-extra-bold;
 }
 
 @layer components {
