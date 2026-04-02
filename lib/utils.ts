@@ -9,7 +9,7 @@ export const formatCurrency = (value: number, currency = "USD"): string => {
       maximumFractionDigits: 2,
     }).format(value);
   } catch {
-    return value.toFixed(2);
+    return Number.isFinite(value) ? value.toFixed(2) : "N/A";
   }
 };
 
