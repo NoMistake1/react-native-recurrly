@@ -9,7 +9,7 @@ import { formatCurrency } from "@/lib/utils";
 import dayjs from "dayjs";
 import ListHeading from "@/components/ListHeading";
 import UpcomingSubscriptionCard from "@/components/UpcomingSubscriptionCard";
-import SubscribtionCard from "@/components/SubscribtionCard";
+import SubscribtionCard from "@/components/SubscriptionCard";
 import { useState } from "react";
 const SafeAreaView = styled(RNSafeAreaView);
 
